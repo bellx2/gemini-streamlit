@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gemini-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Ryu Tanabe <bellx2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.29.0"
+google-generativeai = "^0.3.1"
+python-dotenv = "^1.0.0"
+watchdog = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
