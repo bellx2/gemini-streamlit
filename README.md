@@ -1,8 +1,8 @@
-## Gemini Pro Streamlit app
+# Gemini Pro Streamlit app
 
-[Gemini Pro](https://ai.google.dev/) を使った Streamlit アプリケーションです。
+Streamlit App using [Gemini Pro](https://ai.google.dev/)
 
-### 実行方法
+## How to run
 
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
@@ -10,8 +10,14 @@ portry install
 poetry run streamlit run app.py
 ```
 
-### 環境変数
+## env
 
-- GOOGLE_API_KEY : Gemini API の API キー
+- GOOGLE_API_KEY : Gemini API Key
 
-[Google AI Studio](https://makersuite.google.com/)から取得した API キーを設定してください。
+  Get API Key from [Google AI Studio](https://makersuite.google.com/)
+
+## License
+
+MIT
+
+## Qiita
